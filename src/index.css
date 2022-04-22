@@ -7,7 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  width: 768px;
+  margin: 30px auto;
+}
+.carousel-container{
+  overflow: hidden;
+}
+.carousel{
+  display: inline-flex;
+  cursor: pointer;
+}
+.carousel img{
+  width: 305px;
+  height: 550px;
+  pointer-events: none;
 }
